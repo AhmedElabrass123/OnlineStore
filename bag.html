@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- bootstrap 4.6 -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Store</title>
+  </head>
+  <body>
+    <div class="head">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <a href="index.html" class="logo text-primary">Online Store</a>
+          <a class="basket" href="bag.html">
+            <i class="fas fa-bag-shopping"></i>
+            <span class="num">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="totalPrice mb-4" style="margin-top: 110px; font-weight: 600">
+        Total Price : <span class="" style="color:rgba(112, 112, 236, 0.789)">$00</span> </div>
+      <div
+        class="w-100 text-center mb-4 d-flex flex-wrap justify-content-center align-items-center"
+      >
+        <button id="btnCheck" class="btn btn-success" style="font-size: 18px">
+          CheckOut
+        </button>
+        <button
+          id="btnClearAll"
+          class="btn btn-danger ml-3"
+          style="font-size: 18px"
+        >
+          ClearAll
+        </button>
+      </div>
+      <div class="store" id="store">
+        <div class="container">
+          <!-- <div class="product">
+            <div class="shirt-name">
+              <img src="img/1.jfif" alt="" />
+              <p class="name">Black T-shirt</p>
+            </div>
+            <div class="amount">
+              <button class="inBtn">-</button>
+              <span class="num">0</span>
+              <button class="deBtn">+</button>
+            </div>
+            <div class="price">
+              <h6>Price</h6>
+              $10
+            </div>
+            <div class="proTotalPrice">
+              <h6>Total</h6>
+              $10
+            </div>
+            <div class="deleteIcon">
+              <i class="fas fa-xmark close"></i>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </main>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/Data.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
